@@ -8,7 +8,7 @@ class Program
         int x = Convert.ToInt32(Console.ReadLine());
 
         int y = 5 * x + 20;
-
+     
         Console.WriteLine($"Значение выражения y = 5 * x + 20 равно: {y}");
     }
 }
