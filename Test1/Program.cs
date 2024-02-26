@@ -8,7 +8,8 @@ class Program
         int x = Convert.ToInt32(Console.ReadLine());
 
         int y = 5 * x + 20;
+        y *= 2; // Увеличиваем значение y в два раза
 
-        Console.WriteLine($"Значение выражения y = 5 * x + 20 равно: {y}");
+        Console.WriteLine($"Значение выражения y = 5 * x + 20 увеличенное в два раза равно: {y}");
     }
 }
